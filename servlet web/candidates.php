@@ -28,7 +28,6 @@
       <div class="content">
         <div class="candidate">
           <div class="pic"></div>
-<<<<<<< HEAD
           <a href=""><div class="profilname">cheb l3arbi</a></div>
         </div>
         <div class="candidate">
@@ -38,17 +37,6 @@
         <div class="candidate">
           <div class="pic"></div>
           <a href=""><div class="profilname">zimbabwe</a></div>
-=======
-          <div class="profilname">chab l3arbi</div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <div class="profilname">shikha trax</div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <div class="profilname">adam lallana</div>
->>>>>>> ffcee5b7b2c38e2519d20313597cfbc616bbc730
         </div>
       </div>
     </div>

@@ -13,7 +13,6 @@
     />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="homepage.css" />
-    <link rel="stylesheet" href="candidates.css" />
   </head>
   <body>
     <header class="header">
@@ -24,31 +23,21 @@
         <a href=""><div class="nav-content">Login</div></a>
       </div>
     </header>
-    <div class="container">
-      <div class="content">
-        <div class="candidate">
-          <div class="pic"></div>
-<<<<<<< HEAD
-          <a href=""><div class="profilname">cheb l3arbi</a></div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <a href=""><div class="profilname">shikha trax</a></div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <a href=""><div class="profilname">zimbabwe</a></div>
-=======
-          <div class="profilname">chab l3arbi</div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <div class="profilname">shikha trax</div>
-        </div>
-        <div class="candidate">
-          <div class="pic"></div>
-          <div class="profilname">adam lallana</div>
->>>>>>> ffcee5b7b2c38e2519d20313597cfbc616bbc730
-        </div>
+    <div class="main-container">Why you should Vote!</div>
+    <div class="section1">
+      <div class="img1">
+        <img
+          src="/servlet web/imagesweb/Section 2_Reasons To Vote_Blog.jpg"
+          alt="vote1"
+        />
+      </div>
+      <div class="img1txt">
+        You have the power to decide on the quality of life you want for
+        yourself and future generations. Voting is your chance to stand up for
+        the issues you care about like public transportation, raising minimum
+        wage, or funding local schools. This is your life: take the time to help
+        decide what’s best.
       </div>
     </div>
+  </body>
+</html>

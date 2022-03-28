@@ -44,7 +44,7 @@
   }
   .profilname {
       display: flex;
-      font-size: large;
+      font-size: medium;
       font-family: Arial, Helvetica, sans-serif;
       color: rgb(44, 44, 119);
       grid-column: 2/3;

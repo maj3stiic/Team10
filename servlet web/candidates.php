@@ -28,15 +28,15 @@
       <div class="content">
         <div class="candidate">
           <div class="pic"></div>
-          <div class="profilname">chab l3arbi</div>
+          <a href=""><div class="profilname">cheb l3arbi</a></div>
         </div>
         <div class="candidate">
           <div class="pic"></div>
-          <div class="profilname">shikha trax</div>
+          <a href=""><div class="profilname">shikha trax</a></div>
         </div>
         <div class="candidate">
           <div class="pic"></div>
-          <div class="profilname">adam lallana</div>
+          <a href=""><div class="profilname">zimbabwe</a></div>
         </div>
       </div>
     </div>

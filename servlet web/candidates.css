@@ -33,14 +33,13 @@
   }
   .pic {
     display: flex;
-    height: 15vh;
     background-size: cover;
     font-size: 15vh;
     border-radius: 50%;
     padding: 0.5em;
     grid-column: 2/3;
     grid-row: 2/3 ;
-    background-image: url(imagesweb/scott-graham-OQMZwNd3ThU-unsplash.jpg);
+    background: url(/imagesweb/Section\ 4_Reasons\ To\ Vote_Blog.jpg);
   }
   .profilname {
       display: flex;

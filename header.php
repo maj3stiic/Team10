@@ -43,7 +43,7 @@
 <header class="header">
   <div class="headercontainer">
     <div class="title">EVOTE</div>
-    <a href="vote.php">
+    <a href="index.php">
       <div class="nav-content">Home</div>
     </a>
     <a href="candidates.php">

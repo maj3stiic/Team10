@@ -14,7 +14,6 @@
 <?php
 include "header.php";
 ?>
-
 <body>
   <div class="login-wrap">
     <div class="login-html">
@@ -68,9 +67,10 @@ include "header.php";
       </div>
     </div>
   </div>
+  <?php
+  include "footer.php";
+  ?>
 </body>
-<?php
-include "footer.php";
-?>
+
 
 </html>

@@ -12,9 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="homepage.css" />
 </head>
-<?php
-include "header.php";
-?>
+
+<%@ include file="header.html"%>
 
 <body>
   <div class="main-container">
@@ -43,7 +42,6 @@ include "header.php";
   </div>
 
 </body>
-<?php
-include "footer.php";
-?>
+
+<%@ include file="footer.html"%>
 </html>

@@ -11,9 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="signup.css" />
 </head>
-<?php
-include "header.php";
-?>
+
+ <%@ include file="header.html"%>
+
 <body>
   <div class="login-wrap">
     <div class="login-html">
@@ -42,7 +42,7 @@ include "header.php";
         <div class="sign-up-htm">
           <div class="group">
             <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input">
+            <input id="user" type="input" class="input">
           </div>
           <div class="group">
             <label for="pass" class="label">Password</label>
@@ -68,7 +68,7 @@ include "header.php";
     </div>
   </div>
   <?php
-  include "footer.php";
+ 
   ?>
 </body>
 

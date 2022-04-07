@@ -15,6 +15,9 @@
 <?php
 include "header.php";
 ?>
+
+// <%@ include file="header.html"%>
+
 <body>
   <div class="main-container">
     <div class="content1">
@@ -46,4 +49,6 @@ include "header.php";
 include "footer.php";
 ?>
 
+
+<%@ include file="footer.html"%>
 </html>

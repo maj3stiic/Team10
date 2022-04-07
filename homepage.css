@@ -1,6 +1,7 @@
 .main-container {
   height: 220vh;
   max-height: 150rem;
+  min-height: 95rem;
   color: snow;
   user-select: none;
   background-size: cover;
@@ -11,8 +12,21 @@
 .title1{
   padding-bottom: 1em;
   padding-top: 0.5em;
+  padding-left: 0.7em;
+  font-size: 3rem;
 }
 
+.img1 {
+  display: flex;
+  background-image: url(imagesweb/Section\ 2_Reasons\ To\ Vote_Blog.jpg);
+  border-radius: 1em;
+  height: 18em;
+  max-width: 30em;
+  background-size:cover;
+  box-sizing: border-box;
+  margin-left: 4em;
+  margin-right: 2em;
+}
 .img1txt {
   font-size: large;
   background-color: rgba(255, 250, 250, 0.669);
@@ -23,24 +37,15 @@
   margin:2em;
   padding-left: 1em;
 }
-.img1 {
-  display: flex;
-  background-image: url(imagesweb/Section\ 2_Reasons\ To\ Vote_Blog.jpg);
-  border-radius: 1em;
-  height: 18em;
-  width: 30em;
-  background-size:cover;
-  margin-left: 4em;
-  margin-right: 2em;
-}
 .img2{
-  background-image:url(/imagesweb/Section\ 4_Reasons\ To\ Vote_Blog.jpg) ;
+  background-image:url(imagesweb/Section\ 4_Reasons\ To\ Vote_Blog.jpg) ;
   display: flex;
   border-radius: 1em;
   height: 18em;
-  width: 35em;
+  max-width: 30em;
   background-size:cover;
-  margin-left: 2em;
+  margin-top: 3em;
+  margin-left: 4em;
   margin-right: 2em;
 }
 .img2txt {
@@ -74,4 +79,27 @@
 }
 #btn:active{
   background-color: rgb(123, 4, 4);
+}
+@media only screen and (max-width: 960px) {
+  .img1{
+      display: flex;
+      border-radius: 1em;
+      height: 15em;
+      max-width: 20em;
+      background-size:cover;
+      box-sizing: border-box;
+      margin-left: 4em;
+      margin-right: 2em;
+    }
+    .img1txt{
+      display: flex;
+      font-size: medium;
+      background-color: rgba(255, 250, 250, 0.669);
+      color: black;
+      align-self: flex-end;
+      max-height: 3em;
+      border-radius: 0.7em;
+      padding-left: 1em;
+    }
+  
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVOTE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Spartan:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .headercontainer {
+    padding: 1.5em;
+    color: snow;
+    background-color: rgb(44, 44, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .title {
+    margin-top: 00.5em;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  .nav-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0.5em;
+    color: snow;
+    text-decoration: none;
+  }
+</style>
+<header class="header">
+  <div class="headercontainer">
+    <div class="title">EVOTE</div>
+    <a href="index.php">
+      <div class="nav-content">Home</div>
+    </a>
+    <a href="candidates.php">
+      <div class="nav-content">Candidates</div>
+    </a>
+    <a href="signup.html">
+      <div class="nav-content">Login</div>
+    </a>
+  </div>
+</header>
+<body>
+  <div class="login-wrap">
+    <div class="login-html">
+      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+        <div class="sign-up-htm">
+          <div class="group">
+            <label for="user" class="label">Username</label>
+            <input id="user" type="input" class="input">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Repeat Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Email Address</label>
+            <input id="pass" type="text" class="input">
+          </div>
+          <div class="group">
+            <input type="submit" class="button" value="submit" />
+          </div>
+          <div class="hr"></div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+</html>

@@ -9,6 +9,11 @@ body{
     background: #fff;
     max-width: 60%;
     height: 50%;
+    width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	
 }
 .profile-img{
     text-align: center;

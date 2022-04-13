@@ -16,7 +16,8 @@
 include "header.php";
 ?>
 
-// <%@ include file="header.html"%>
+<!-- this command includes the files in jsp!!
+  <%@ include file="header.html"%>-->
 
 <body>
   <div class="main-container">
@@ -50,5 +51,6 @@ include "footer.php";
 ?>
 
 
-<%@ include file="footer.html"%>
+<!-- <%@ include file="footer.html"%> -->
+
 </html>

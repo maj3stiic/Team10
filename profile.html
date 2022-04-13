@@ -1,171 +1,183 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
-  <link rel="stylesheet" href="profile.css" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
+      .headercontainer {
+        padding: 1.5em;
+        color: snow;
+        background-color: rgb(44, 44, 119);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
 
-    .headercontainer {
-      padding: 1.5em;
-      color: snow;
-      background-color: rgb(44, 44, 119);
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
+      .title {
+        margin-top: 00.5em;
+        font-size: larger;
+        font-weight: bold;
+        margin-right: auto;
+      }
 
-    .title {
-      margin-top: 00.5em;
-      font-size: larger;
-      font-weight: bold;
-      margin-right: auto;
-    }
-
-    .nav-content {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      margin: 0.5em;
-      color: snow;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<header class="header">
-  <div class="headercontainer">
-    <div class="title">EVOTE</div>
-    <a href="index.php">
-      <div class="nav-content">Home</div>
-    </a>
-    <a href="candidates.php">
-      <div class="nav-content">Candidates</div>
-    </a>
-    <a href="signup.html">
-      <div class="nav-content">Login</div>
-    </a>
-    <a href="profile.html">
+      .nav-content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0.5em;
+        color: snow;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <header class="header">
+    <div class="headercontainer">
+      <div class="title">EVOTE</div>
+      <a href="index.php">
+        <div class="nav-content">Home</div>
+      </a>
+      <a href="candidates.php">
+        <div class="nav-content">Candidates</div>
+      </a>
+      <a href="signup.php">
+        <div class="nav-content">Login</div>
+      </a>
+      <a href="profile.html">
         <div class="nav-content">Profile</div>
       </a>
-  </div>
-</header>
+    </div>
+  </header>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-
-<style>
-
-</style>
+<style></style>
 
 <div class="container emp-profile">
-    <form method="post">
+  <form method="post">
     <div class="row">
-     <div class="col-md-4">
-         <div class="profile-img">
-           <img src="imagesweb/mehdi.jpg" alt=""/>
-               <div class="file btn btn-lg btn-primary">
-               Change Photo
-                 <input type="file" name="file"/>
-    </div>
-         </div>
-     </div>
- <div class="col-md-6">
+      <div class="col-md-4">
+        <div class="profile-img">
+          <img src="imagesweb/mehdi.jpg" alt="" />
+          <div class="file btn btn-lg btn-primary">
+            Change Photo
+            <input type="file" name="file" />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
         <div class="profile-head">
-           <h5>
-         Mehdi Naciri
-         </h5>
-         <h6>
-                                                Election Candidate
-                                            </h6>
-                                            
-                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                        <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
-                                </li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="profile-work">
-                            <p>Profile</p>
-                            <a href="q&a.html"> Answer Questions</a><br/>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="tab-content profile-tab" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>User Id</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Mehdi123</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Name</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Mehdi Naciri</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Email</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>mehdi.naciri@student.hamk.fi</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Phone</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>123 456 7890</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Profession</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Student</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                          <div class="col-md-6">
-                                              <label>Country</label>
-                                          </div>
-                                          <div class="col-md-6">
-                                              <p>Morocco</p>
-                                          </div>
-                                      </div>
-                            </div>
-                            
+          <h5>Mehdi Naciri</h5>
+          <h6>Election Candidate</h6>
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="home-tab"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <input
+          type="submit"
+          class="profile-edit-btn"
+          name="btnAddMore"
+          value="Edit Profile"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="profile-work">
+          <p>Profile</p>
+          <a href="q&a.html"> Answer Questions</a><br />
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content profile-tab" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <div class="row">
+              <div class="col-md-6">
+                <label>User Id</label>
+              </div>
+              <div class="col-md-6">
+                <p>Mehdi123</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Name</label>
+              </div>
+              <div class="col-md-6">
+                <p>Mehdi Naciri</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Email</label>
+              </div>
+              <div class="col-md-6">
+                <p>mehdi.naciri@student.hamk.fi</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Phone</label>
+              </div>
+              <div class="col-md-6">
+                <p>123 456 7890</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Profession</label>
+              </div>
+              <div class="col-md-6">
+                <p>Student</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label>Country</label>
+              </div>
+              <div class="col-md-6">
+                <p>Morocco</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
